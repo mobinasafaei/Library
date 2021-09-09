@@ -10,14 +10,20 @@ public class Librarian {
     }
 
     public static void addMember(String name, String birthDate) {
-        Member member=new Member();
+        Member member = new Member();
         member.setBirthDate(birthDate);
+
       //  member.setMemberId();
         Library library=new Library();
         library.setMembers(member,member.getMemberId());
 
-        System.out.println("just for test");
+
 
     }
 
+    public static void giveMemberBook(int memberId, int bookId) {
+        Member member = new Member();
+        member.setMemberId(memberId);
+
+    }
 }
