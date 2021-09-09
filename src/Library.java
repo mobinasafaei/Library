@@ -21,12 +21,12 @@ public class Library {
         this.books[i] = books;
     }
 
-    public Member[] getMembers() {
-        return members;
+    public Member getMembers(int id) {
+        return members[id];
     }
 
-    public void setMembers(Member[] members) {
-        this.members = members;
+    public void setMembers(Member member,int id) {
+        this.members[id] = member;
     }
 
 }
