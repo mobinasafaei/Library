@@ -1,0 +1,16 @@
+public class Librarian {
+    public static void addBook(String name, int count) {
+        Book[] books = new Book[count];
+        Library library = new Library();
+        for (int i = 0; i < count; i++) {
+            library.setBooks(books[i], i);
+            library.getBooks(i).setBookId(i);
+            library.getBooks(i).setBookName(name);
+        }
+    }
+
+    public static void addMember(String name, String birthDate) {
+//??
+    }
+
+}
