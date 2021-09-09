@@ -4,6 +4,14 @@ public class Member {
     private int memberId;
     private Book[] books=new Book[5];
 
+    public Book getBooks(int id) {
+        return books[id];
+    }
+
+    public void setBooks(Book books, int id) {
+        this.books[id] = books;
+    }
+
     public String getName() {
         return name;
     }

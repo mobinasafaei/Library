@@ -20,6 +20,7 @@ public class Librarian {
 
     public static void giveMemberBook(int memberId, int bookId) {
         Member member = new Member();
+        member.setMemberId(memberId);
 
 
     }
