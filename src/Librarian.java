@@ -10,7 +10,10 @@ public class Librarian {
     }
 
     public static void addMember(String name, String birthDate) {
-//??
+        Member member=new Member();
+        member.setBirthDate(birthDate);
+
+
     }
 
 }
