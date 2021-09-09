@@ -10,14 +10,17 @@ public class Librarian {
     }
 
     public static void addMember(String name, String birthDate) {
-        Member member=new Member();
+        Member member = new Member();
         member.setBirthDate(birthDate);
-        member.setMemberId();
-        Library library=new Library();
-        library.setMembers(member,member.getMemberId());
-
-
+        //member.setMemberId();
+        Library library = new Library();
+        library.setMembers(member, member.getMemberId());//not complete
 
     }
 
+    public static void giveMemberBook(int memberId, int bookId) {
+        Member member = new Member();
+
+
+    }
 }
