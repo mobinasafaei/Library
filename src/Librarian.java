@@ -12,11 +12,11 @@ public class Librarian {
     public static void addMember(String name, String birthDate) {
         Member member=new Member();
         member.setBirthDate(birthDate);
-        member.setMemberId();
+      //  member.setMemberId();
         Library library=new Library();
         library.setMembers(member,member.getMemberId());
 
-
+        System.out.println("just for test");
 
     }
 
