@@ -1,6 +1,6 @@
 public class Library {
     private Book[] books = new Book[50];
-    private Member[] members = new Member[50];
+    private Member[] members = new Member[70];
 
 
     public Library() {
